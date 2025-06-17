@@ -1,4 +1,4 @@
-![Banner](./src/assets/heroBanner.jpg)
+<img src="./src/assets/heroBanner.jpg" alt="Banner" style="width:100%; height:300px; object-fit:cover;" />
 
 # 🦸‍♀️ Superhero Cards React App
 
@@ -109,11 +109,11 @@ npm start
 ## 👤 Author
 **Snehlata Prajapati**
 
-* 💼 LinkedIn
+* 💼 [LinkedIn](https://www.linkedin.com/in/snehlata-prajapati/)
 
-* 🐱 GitHub
+* 🐱 [GitHub](https://github.com/Snehlatacs)
 
-* 🌐 Live Site
+* 🌐 [Live Site](https://super-hero-cards.netlify.app)
 
 ## 🏁 License
 
