@@ -1,0 +1,58 @@
+/* src/App.css */
+.board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+  align-items: start;
+}
+
+.app {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f; /* Dark background for the app */
+  color: #00ffff; /* Neon cyan text */
+  text-shadow: #00ffff;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.search-bar {
+  width: 80%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 2px solid cyan;
+  border-radius: 8px;
+  background-color: #111;
+  color: #00ffff;
+  display: block;
+}
+
+.search-bar::placeholder {
+  color: #00ffff;
+}
+
+
+.card {
+  background-color: #0f0f0f;
+  color: #fff;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00ffff;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* ✅ Keeps images inside the box without stretching */
+  border-radius: 8px;
+}

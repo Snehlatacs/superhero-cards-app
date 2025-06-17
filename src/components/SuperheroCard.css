@@ -1,0 +1,45 @@
+/* src/SuperheroCard.css */
+.card {
+  background-color: #0f0f0f; /* dark background to make neon pop */
+  border: 2px solid rgb(209, 43, 21); /* neon color */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgb(209, 42, 42), 0 0 20px rgb(209, 42, 42), 0 0 30px rgb(209, 43, 43);
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgb(0, 0, 0), 0 0 30px rgb(39, 14, 14), 0 0 45px rgb(0, 0, 0);
+  border-color: #000000;
+}
+
+.card h2 {
+  color: #00ffff;
+  margin-bottom: 10px;
+  text-shadow: 0 0 5px #0ff;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #ccc;
+  text-shadow: 0 0 3px #0ff;
+}
+
+.hero-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-views {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-top: 8px;
+}
