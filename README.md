@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+![Banner](./src/assets/heroBanner.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🦸‍♀️ Superhero Cards React App
 
-## Available Scripts
+A **React-based Single Page Application** that lets you explore superhero cards, visit detailed blog pages, and interact with comments and view counters — all stored locally using `localStorage`.
 
-In the project directory, you can run:
+### 🌐 Live Demo
 
-### `npm start`
+👉 [https://super-hero-cards.netlify.app](https://super-hero-cards.netlify.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Features
 
-### `npm test`
+- 🔍 Search heroes by name
+- 📸 Superhero cards with name, image, and power
+- 👁️ Track how many times a hero’s page was viewed
+- 📝 Add comments per hero with like/dislike buttons
+- 🌐 Dynamic routing using React Router
+- 💾 Persistent view data using `localStorage`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Tech         | Role                      |
+| ------------ | ------------------------- |
+| React        | UI Framework              |
+| React Router | Routing for blog pages    |
+| JSX          | Templating in React       |
+| CSS          | Styling UI components     |
+| Netlify      | Deployment platform       |
+| LocalStorage | Persisting view counters  |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Project Structure
 
-### `npm run eject`
+<pre>
+superhero-cards-app/
+│
+├── node_modules/
+├── public/
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── SuperHeroCard.js
+│   │   └── SuperHeroCard.css
+│   │
+│   ├── pages/
+│   │   ├── HeroBlogPage.js
+│   │   └── HeroBlogPage.css
+│   │
+│   ├── heroImage/
+│   │   └── Black Panther.jpg
+│   │   └── ... other hero images ...
+│   │
+│   ├── heroes.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+├── package.json
+├── package-lock.json
+└── README.md
+</pre>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 How to Run Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository**:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/your-username/superhero-cards-app.git
+cd superhero-cards-app
 
-## Learn More
+```
+2. **Install dependencies:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm install
+```
+3. **Run the development server:**
+```
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+## 📸 Screenshots
+---
+### 🏠 Home Page with Card Grid
+![Home Page](./src/assets/home.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
+### 📝 Hero Blog Page with Views 
+![Blog Page](./src/assets/blog.png)
 
-### Analyzing the Bundle Size
+---
+### 💬 Comment option
+![comment](./src/assets/comment.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
+### 🔍 Search box
+![search box](./src/assets/search.png)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👤 Author
+**Snehlata Prajapati**
 
-### Advanced Configuration
+* 💼 LinkedIn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* 🐱 GitHub
 
-### Deployment
+* 🌐 Live Site
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🏁 License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
+Feel free to use, fork, or enhance it for learning or personal projects!
